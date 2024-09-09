@@ -1,0 +1,98 @@
+body, h1, form, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dfcdcd;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #111010;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-bottom:50px ;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+button {
+    padding: 10px;
+    border: 2px solid #fdfdfd;
+    border-radius: 4px;
+    width: 600px;
+    outline: none;
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
+
+button {
+    background-color: #e7b9d5;
+    color: rgb(56, 55, 55);
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+button:hover {
+    background-color: #a17694;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #e7b9d5;
+    color: rgb(46, 46, 46);
+    border-radius: 1px;
+}
+
+td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    color: rgb(3, 3, 3); 
+    font-family: monospace;
+    font-size: 20px;
+}
+
